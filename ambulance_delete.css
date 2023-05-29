@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.cover{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(120deg,#2E111F,#BB3678);
+}
+.bar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width:120px;
+    cursor: pointer;
+}
+.bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.bar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.bar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #00FFFF;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.bar ul li:hover::after{
+    width: 100%;
+}
+.logout{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+    bottom: -15px;
+    bottom: -17px;
+}
+
+
+.form{
+    width: 800px;
+    height: 400px;
+    background: rgba(1, 1, 1, 0);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 4%;
+    padding: 70px 40px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.8);
+}
+.profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 350px;
+    cursor: hand;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.form p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.form input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: aliceblue;
+    font-size: 16px;
+}
+.form input[type="submit"]{
+    border: none;
+    outline: none;
+    background: #1CB8E3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px; 
+    cursor: hand;
+}
+.form input[type="submit"]:hover{
+    background: #39dc79;
+    color: #000;
+}
+.in2 input[type=radio] {
+    transform: scale(0.4);
+    padding: 10px;
+}
+.doc2 p{
+    text-align: center;
+}

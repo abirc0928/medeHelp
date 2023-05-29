@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+.cover{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: inherit;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+}
+
+.cover-user{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: inherit;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+}
+
+.logo{
+    width:25px;
+    height: 25px;
+    cursor: pointer;
+}
+.logout{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.table-list{
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.8);
+    margin-top: 60px;
+}
+
+.profile{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -70px;
+}
+
+.form p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.form input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: aliceblue;
+    font-size: 16px;
+}
+.form input[type="submit"]{
+    border: none;
+    outline: none;
+    background: #1CB8E3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px; 
+    cursor: hand;
+}
+.form input[type="submit"]:hover{
+    background: #39dc79;
+    color: #000;
+}
+.text{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.text h1{
+    font-size: 60px;
+    margin-top: 80px;
+}
+.text p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.cover input[type="submit"]{
+    width: 400px;
+    height: 70px;
+    border: none;
+    outline: none;
+    background: #1CB8E3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px; 
+    cursor: hand;
+    padding: 10px;
+}
+.cover input[type="submit"]:hover{
+    background: #39dc79;
+    color: #000;
+}
