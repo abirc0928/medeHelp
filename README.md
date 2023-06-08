@@ -5,8 +5,8 @@ MedHelp is an online platform where your health comes first. We bring solution f
 * Programing Languages: HTML, CSS, Bootstrap, JavaScript, JQuery, PHP
 * Database: MySQL
 ## Developed By
-* Jubayer Hossen  
-* Email: `jhossen191254@bscse.uiu.ac.bd`  
+* Abir Chowdhury
+* Email: `abirchowdhury0928@gmail.com`
 * BSc in Computer Science and Engineering  
 * United International University
 
